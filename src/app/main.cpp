@@ -1,7 +1,7 @@
-#include <iostream>
+#include "app.hpp"
 
 int main()
 {
-    std::cout << "Hello Pomodoro application!\n";
-    return 0;
+    pomodoro::app::App app(1024, 768);
+    app.main();
 }
