@@ -1,0 +1,19 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 25
+    },
+    "configurePresets": [
+        {
+            "name": "dbg-pomodoro",
+            "displayName": "dbg-pomodoro",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/dbg-pomodoro",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/.conan/Debug/build/Debug/generators/conan_toolchain.cmake"
+            }
+        }
+    ]
+}

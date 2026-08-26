@@ -1,0 +1,8 @@
+{
+    "name": "linden-app-cpp-pomodoro",
+    "image": "dast1986/slough-dev-dc-cpp:1.0.9",
+    "remoteEnv": {
+        "PROMPTNAME": "POMODORO",
+        "LIBGL_ALWAYS_SOFTWARE": "1"
+    }
+}
